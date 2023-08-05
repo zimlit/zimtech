@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "zimtech:block/flint"
+    }
+  }
+}

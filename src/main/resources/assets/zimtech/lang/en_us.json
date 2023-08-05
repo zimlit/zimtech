@@ -1,0 +1,5 @@
+{
+  "itemGroup.main": "zimtech",
+  "block.zimtech.flint_cobble": "flint cobble",
+  "item.zimtech.flint_cobble.tooltip": "hardness"
+}

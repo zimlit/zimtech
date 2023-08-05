@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "zimtech",
+  "version": "${version}",
+  "name": "zimtech",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/zimlit/zimtech"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/zimtech/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.zimlit.zimtech.client.ZimtechClient"
+    ],
+    "main": [
+      "com.zimlit.zimtech.Zimtech"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
